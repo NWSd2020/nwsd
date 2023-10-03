@@ -1,0 +1,221 @@
+
+.outer{
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	padding-top:50px;
+	
+}
+
+
+.inner{
+	
+	padding-top:30px;
+	width:100%;
+	border:1px 0 1px 1px solid;
+	border-radius:0 0 8px 8px ;
+	box-shadow: 5px 5px 15px  black;
+	background-color:#ffff;
+	color:black;
+	padding:10px;
+	
+	}
+	
+.heading{
+	width:100%;
+	color:#fff;
+	border-radius:8px 8px 0 0 ;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	box-shadow: 5px 5px 15px  black;
+	padding:10px;
+}
+
+
+.navbar {
+  padding-right:5%;
+}
+
+ul.navbar-nav li a {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+	
+	border-radius:20px;
+}
+
+ul.navbar-nav li a:hover,
+ul.navbar-nav li a:focus {
+    color: black;
+	background-color: #00B4D8;
+	border-radius:20px;
+	  -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.logo1{
+	
+	height:20%;
+	width:20%;
+	border-radius:100%;
+	
+	
+}
+
+
+
+
+#home {
+    background: none;
+    height: 100;
+}
+
+#home-bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+    background: url("https://media.istockphoto.com/id/1386241240/photo/concept-of-security-network-security-data-and-password-login-on-computer-protect-data-by.webp?b=1&s=170667a&w=0&k=20&c=tM12Vc_xOXEftNJfpJLPgCkpPvydTdlNscxKuZqqk8Y=") no-repeat;
+    background-size: cover;
+		
+
+}
+
+#home-overlay {
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+
+
+}
+
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+}
+
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle
+}
+
+#home-heading h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100px;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#home-heading h8 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100px;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#home-heading h1 span {
+    color: #E85D04;
+    font-weight: 800;
+}
+
+}
+
+#home-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
+}
+
+footer {
+    background-color:#0000;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+footer p span {
+    color: #ffae2c;
+    font-weight: 600;
+}
+
+#telsta{
+	height:100%;
+	width:60%;
+	padding-left:40%;
+}
+#con{
+	color:#E85D04;
+	padding-top:5px;
+}
+#con:hover{
+	color:#ffae2c;	
+}
+.logo1{
+	height:10%;
+	width:10%;
+	border-radius:200%;	
+}
+.logo2{
+	height:100%;
+	width:30%;
+	border-radius:100%;
+}
+#teamlist{
+	color:grey;
+	font-size:17px;
+	background:black;	
+}
+#team-list{
+	background:none;
+	border:none;
+	color:#fff;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;	
+}
+h5{
+    color: red;
+}
+.team-btn{
+	padding:10px 10px;
+	background-color:#E85D04;
+	border:none;
+}
+.team-btn:hover{
+	color:#fff;
+	background-color:#555;
+	
+}
+.team-btn{
+	box-shadow:0 0 5px black;
+	
+	
+}

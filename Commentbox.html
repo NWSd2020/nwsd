@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--font-awesome-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!--bootstraps-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <!--External css link-->
+            <link rel="stylesheet" href="./comment.css">
+        <!--Script links-->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+            <title>Comment-Box</title>
+			 <!--faveicon-->
+    <link rel="shortcut icon" href="images/faveicon/favicon-16x16.png">
+</head>
+
+<body>
+ 
+
+    <!--Navbar start--->
+  <header style="  background-color:grey;">
+        <nav class="navbar navbar-expand-md ">
+
+            <!--logo-->
+            <a class="navbar-brand" href="#home">
+                <img src="images/logos/logo1.jpg" alt="logo" class="logo1">
+            </a>
+			<!--
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon" style="color:red"></span>
+			</button>
+           <!-->
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse "id="#navbarSupportedContent">
+			
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href=".../index.html #home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Precies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="./NWSD/Signup-page.html">Signin/Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Navbar ends--->
+    
+    <!--Comment-box start--->
+<div class="container-fluid">
+  <div class="row bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="container border p-5 ">
+            <div class="row">
+              <div class="container">
+                <h2>Comments</h2>
+                <hr>
+                <form >
+                  <input type="text" class="form-control" placeholder="Full name">
+                  <input type="text" class="form-control" placeholder="Email Address" >
+                  <textarea name="comment" class="form-control" rows="7" placeholder="Comment here" ></textarea>
+                  <button  class="btn btn-primary">Submit Comment</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Comment-box Ends--->
+
+    <!--Counter start-->
+    <div class="row">
+      <div class="container">
+        <div class="row counter m-5">
+          <a href="#" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=8682028&style=0010&nbdigits=5&type=ip&initCount=0"  Alt="Visit counter For Websites"  />
+          </a>    
+        </div>
+      </div>
+    </div>
+
+    <!--Counter Ends-->
+
+    <!--Rating start-->
+    <div class="row bg-light">
+      <div class="container" style="width: 100%;">
+        <div class="row justify-content-center "> 
+            <div class="review-box p-3 ">
+              <h2>Review</h2>
+              <hr>
+                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" id="reviews" placeholder="Write a review here" >
+                <span class="d-flex flex-col star-rating  m-3">
+                    <label for="rate-1" ><i class="fas fa-star"></i></label>
+                    <input type="radio" name="rating" id="rate-1" >
+                    <label for="rate-2" ><i class="fas fa-star"></i></label>
+                    <input type="radio" name="rating" id="rate-2"  >
+                    <label for="rate-3" ><i class="fas fa-star"></i></label>
+                    <input type="radio" name="rating" id="rate-3" >
+                    <label for="rate-4" ><i class="fas fa-star"></i></label>
+                    <input type="radio" name="rating" id="rate-4" >
+                    <label for="rate-5" ><i class="fas fa-star"></i></label>
+                    <input type="radio" name="rating" id="rate-5">
+                </span>
+                <button href="#" class="btn btn-warning m-4">Submit </button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--Rating ends-->
+
+    <!--Reviews start-->
+    <div class="row">
+      <div class="container">
+        <div class="row container1 border">
+              <div class="item m-2 ">
+                <h3>sai</h3>
+                <p >
+                Good
+                </p>
+                <h4>
+                  <i class=" fas fa-star checked "></i>
+                  <i class=" fas fa-star checked "></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star "></i>
+                  <i class=" fas fa-star "></i>
+                </h4>
+              </div>
+        
+              <div class="item m-2">
+                <h3>pavan</h3>
+                <p>
+                  excellent
+                </p>
+                <h4>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+              </h4>
+              </div>
+        
+              <div class="item m-2">
+                <h3>prem</h3>
+                <p>
+                  Excellent
+                </p>
+                <h4> 
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star "></i> 
+                </h4>
+              </div>
+        
+              <div class="item m-2">
+                <h3>kishore</h3>
+                <p>
+                  Good
+                </p>
+                <h4> 
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star "></i>
+                  <i class=" fas fa-star "></i>  
+                </h4>
+              </div>
+        
+              <div class="item m-2">
+                <h3>mani</h3>
+                <p>
+                  Excellent
+                </p>
+                <h4> 
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star "></i> 
+                </h4>
+              </div>
+              <div class="item m-2">
+                <h3>revanth</h3>
+                <p style="margin-top: 10px;">
+                  outstanding
+                </p>
+                <h4> 
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked"></i>
+                  <i class=" fas fa-star checked "></i> 
+                </h4>
+              </div>
+        </div>
+      </div>
+    </div>
+    <!--Reviews ends-->
+  </div>
+</div>
+<!--footer start-->
+    <footer class="text-center mt-2 p-4 bg-dark ">
+          <div class="row">
+            <div class="col-sm-4">
+              <h5>About Us</h5>
+                <ul class="mt-4">
+                  <p>
+                    <a href="#about-02"id="con">Our Vison</a>
+                  </p>
+                  <p>
+                    <a href="#team" id="con" >Founder Info</a>
+                  </p>
+                  <p>
+                    <a href="#team" id="con" >Team Info</a>
+                  </p>
+                  <p>
+                    <a href="#about" id="con" >More About NWSd</a>
+                  </p>
+                </ul> 
+              </div>
+            <div class="col-sm-4">
+              <h5>Contact Us</h5>
+                <ul class="mt-4">
+                  <p >
+                    <a href="#map" id="con"  >location</a>
+                  </p>
+                  <p >
+                    <a href="#contact" id="con" >Ph.no- 9542485133</a>
+                  </p>
+                  <p>
+                    <a href="#contact" id="con" >Mail id- nwsd2020@gmail.com</a>
+                  </p>
+                  <p>
+                    <a href="#contact" id="con" >more</a>
+                  </p>
+                </ul>
+            </div>
+            
+            <div class="col-sm-4">
+              <h5>Follow As</h5>
+                <h5 class="mt-4" style="color:#E85D04" >
+                  <u>Development <b style="color:#fff" >
+                    <select name="Team" id="team-list">
+                      <option value="1">Team</option>
+                      <option id="teamlist" value="1">Sai Pavan</option>
+                      <option id="teamlist" value="2">Saritha</option>
+                      <option id="teamlist" value="3">Prem Kumar</option>
+                      <option id="teamlist" value="4">Sravani</option>
+                      <option id="teamlist" value="5">Hasan</option>
+                      <option id="teamlist" value="6">Anvitha</option>
+                      <option id="teamlist" value="7">Devi Sri</option>
+                      <option id="teamlist" value="8">Sri Priya</option>
+                      <option id="teamlist" value="9">T Chaithanya</option>
+                          
+                    </select>
+                    </b>
+                  </u>
+                </h5>
+          
+                <div class="row">
+                      <img src="./images/TELSTA.jpeg" alt="Development Team" id="telsta" class="telsta-logo">
+                </div>
+                
+              </div>
+          </div>
+          <div class="row justify-content-center mt-4">
+                  <p>Coppyrights &copy; 2021 All Rights Reserved by <span>NWSD Ltd.</span></p>
+          </div>
+  </footer>
+<!--footer end-->
+
+</body>
+</html>

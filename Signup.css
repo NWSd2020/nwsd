@@ -1,0 +1,170 @@
+*{
+    padding:0 ;
+}
+.logo{
+    border-radius: 50%;
+    background-color: #fff;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background: linear-gradient(170deg, #c4c4c2 ,#2c2b2b);
+}
+.navbar img{ 
+    width: 10%;
+    height: 12%;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.outline{
+    box-sizing: border-box ;
+    box-shadow: 10px 10px 15px #323231;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius : 50px;
+    border-bottom-left-radius : 50px;
+    width: 60%;
+    background-color: #323231;
+    color: #fff; 
+    padding: 40px; 
+    margin-left: 19%; 
+}
+
+.signup{
+    display: flex;
+    color: orangered;
+	
+}
+
+div input{
+    width: 75%;
+    background-color: #ddd;
+    border: 1px ;
+    padding: 8px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 5px #D5D3D1 ;
+    border-radius: 5px;
+    display: -moz-inline-grid;
+   
+}
+hr{
+    background-color: #fff;
+}
+.btn-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 30px 0 10px 0;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+}
+.btn-signup:hover{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 30px 0 10px 0;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+}
+.login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.error{
+    display: grid;
+    justify-content: center;
+}
+
+footer {
+    background-color:#0000;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+footer p span {
+    color: #ffae2c;
+    font-weight: 600;
+}
+#telsta{
+	width:70%;
+	padding-left:40%;
+}
+#con{
+	color:#E85D04;
+	padding-top:5px;
+}
+#con:hover{
+	color:#ffae2c;	
+}
+.logo1{
+	height:10%;
+	width:10%;
+	border-radius:200%;	
+}
+.logo2{
+	height:100%;
+	width:30%;
+	border-radius:100%;
+}
+#teamlist{
+	color:grey;
+	font-size:17px;
+	background:black;	
+}
+#team-list{
+	background:none;
+	border:none;
+	color:#fff;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;	
+}
+h5{
+    color: red;
+}
+
+
+.navbar {
+  padding-right:5%;
+}
+
+ul.navbar-nav li a {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+	
+	border-radius:20px;
+}
+
+ul.navbar-nav li a:hover,
+ul.navbar-nav li a:focus {
+    color: black;
+	background-color: #00B4D8;
+	border-radius:20px;
+	  -webkit-transition: all .5s;
+    transition: all .5s;
+}

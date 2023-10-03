@@ -1,0 +1,247 @@
+*{
+    padding:0 ;
+    margin: 0;
+    font-family: "Roboto";
+	box-sizing: border-box;
+}
+.logo{
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.navbar {
+    background: linear-gradient(170deg, #c4c4c2 ,#2c2b2b);
+}
+
+.container h2{
+    color: #FE6C2D;
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.navbar img{
+    width: 10%;
+    height: 12%;
+}
+
+input{
+    width: 100%;
+    margin:8px 0 15px 0 ;
+    padding:15px 0  9px 11px;
+    border: 0;
+    
+}
+.border [type="text"]{
+    height:20% ;
+    padding: 20px;
+}
+
+textarea{
+    width: 100%;
+    margin:15px 0 25px 0 ;
+    padding: 8px 8px 8px 9px;
+    height: 120px;
+    border: 0;
+}
+
+.btn{
+    background-color: #FC9552;
+    color: #fff;
+    border-color: #FE6C2D;
+}
+.btn:hover{
+    background-color: #F55713;
+    color: #fff;
+    border-color:#FE6C2D;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-box h2{
+    display: flex;
+    justify-content: center;
+}
+.review-box{
+    background-color: #e4e6e3;
+    width: 50%;
+    height: 50vh;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 40px 0 40px 0;
+}
+.review-box [type="text"] {
+    width: 100%;
+    height: 15%;
+    border: 0 1px 0 1px solid black;
+    padding-bottom: 0;
+    
+}
+ .review-box [type="radio"] {
+    display: none;
+}
+
+i {
+    margin-top: 25px;
+	font-size: 130%;
+	transition: 0.3s;
+    color: #000;
+
+}
+ label:has(~:checked) i {
+	color: orangered;
+}
+
+
+.border{
+    background-color: #e4e6e3;
+    border: 1px solid #dee2e6;
+    margin:30px 0 40px 0;
+    border-radius: 15px;
+    font-size: 15px;
+}
+   .container1 {
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 100%;
+    height: 60vh;
+    background:#fff;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 15px;
+    border-radius: 8px;
+	
+  }
+  .container1::-webkit-scrollbar {
+	  height: 6px;
+  }
+ 
+  .container1 .item {
+    
+    padding: 24px;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 8px;
+    scroll-snap-align: start;
+  }
+  .container1 .item h3 {
+	  text-transform: capitalize;
+  }
+  p{
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .container1 .item h4 {
+    font-weight: 500;
+    size: 100%;
+    margin-bottom: 8px;
+  }
+  .container1 .item:nth-child(1) {
+	  background: linear-gradient(170deg, #0061ff, #60efff);
+  }
+  .container1 .item:nth-child(2) {
+	  background: linear-gradient(170deg, #7ef29d, #0f68a9);
+  }
+  .container1 .item:nth-child(3) {
+	  background: linear-gradient(150deg, #40c9ff, #ec77f9);
+  }
+  .container1 .item:nth-child(4) {
+	  background: linear-gradient(170deg, #2cf77a, #eacc54);
+  }
+  .container1 .item:nth-child(5) {
+	  background: linear-gradient(170deg, #e2db1f, #ae10f9);
+  }
+  .container1 .item:nth-child(6) {
+	  background: linear-gradient(170deg, #f64646, #10f998);
+  }
+  .checked{
+    color: #F55713;
+ }
+
+ footer p {
+    color: #fff;
+    margin-top: 15px;
+   
+    font-size: 20px;
+}
+
+footer p span {
+    color: #ffae2c;
+    font-weight: 600;
+}
+
+
+#telsta{
+	width:60%;
+	padding-left:40%;
+
+	
+}
+#con{
+	color:#E85D04;
+	padding-top:10px;
+	
+	
+}
+#con:hover{
+	color:#ffae2c;
+	
+	
+}
+.logo1{
+	height:10%;
+	width:10%;
+	border-radius:200%;
+	
+}
+.logo2{
+	height:100%;
+	width:30%;
+	border-radius:100%;
+}
+#teamlist{
+	
+	color:grey;
+	font-size:17px;
+	background:black;
+
+	
+}
+
+
+#team-list{
+	background:none;
+	border:none;
+	color:#fff;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;	
+}
+h5{
+    color: red;
+}
+.navbar {
+  padding-right:5%;
+}
+
+ul.navbar-nav li a {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+	
+	border-radius:20px;
+}
+
+ul.navbar-nav li a:hover,
+ul.navbar-nav li a:focus {
+    color: black;
+	background-color: #00B4D8;
+	border-radius:20px;
+	  -webkit-transition: all .5s;
+    transition: all .5s;
+}

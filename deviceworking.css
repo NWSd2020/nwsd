@@ -1,0 +1,207 @@
+p{
+	font-size: 17px;
+}
+.navbar
+{
+ background-color: #000;
+
+ }
+.nav-link{
+	color:#ffffff;
+}
+nav div ul li a{
+	font-size: 20px;
+}
+nav div ul li{
+	padding: 10px;
+}
+.navbar-brand{
+	border-radius: 50%;
+}
+nav div ul li a:hover{
+	
+	background-color: #43A7C8;
+	border-radius: 15px;
+	
+	
+}
+
+.pr
+{
+	padding-top:5px;
+}
+.card{
+	border-radius: 20px;
+}
+.device
+{
+	margin:10px;
+	width: 50%;
+	height: 70%;
+}
+
+.div2
+{
+	display:inline-block;
+}
+.dev
+{
+	background-color:#ffffff;
+	box-shadow:0px  0 10px grey;
+	border-radius:20px;
+	 width: 100%;
+    height: auto;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.dev:hover{
+	-webkit-transform: scale(1.0);
+    transform: scale(1.1);
+	box-shadow:0 0 20px grey;
+}
+.voice{
+	background-color:#ffff;
+	box-shadow:0px  0 10px grey;
+	border-radius:20px;
+	 width: 100%;
+    height: auto;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+	
+	
+}
+.voice:hover{
+	
+	
+	 -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+	
+	
+}
+.device2
+{
+	
+	padding: 20% 0 0 0;
+	width:100%;
+	height:80%;
+}
+.device1
+{
+	padding: 20% 0 0 0;
+	width:100%;
+	height:80%;
+}
+.ratio{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.per
+{
+	
+	width:60%;
+	height:100%;
+}
+.work{
+	background-color:#ffff;
+	box-shadow:0px  0 10px grey;
+	border-radius:20px;
+	width: 100%;
+    height: 80%;
+	padding-top:10%;
+	-webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+	
+}
+.work:hover{
+	 -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+}
+
+footer {
+    background-color:#000;
+    padding:50px;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+    line-height: 25px;
+}
+
+footer p span {
+    color: #ffae2c;
+    font-weight: 600;
+}
+
+/*back to top button*/
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    padding: 0px 18px;
+    border-radius: 50px;
+}
+#telsta{
+	height:100%;
+	width:45%;
+	padding-left:10%;
+}
+#con{
+	color:#E85D04;
+	text-decoration:underline;
+	
+}
+#con:hover{
+	color:#ffae2c;
+	
+}
+#teamlist{
+	
+	color:grey;
+	font-size:17px;
+	background:black;
+
+	
+}
+
+
+#team-list{
+	background:none;
+	border:none;
+	color:#fff;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	
+}
+
+
+.head1{
+	color:#43A7C8;
+}
+footer div ul p{
+	margin-top: 8px;
+}
+
+.develop{
+	padding-left:100px;
+	padding-top:0;
+}
+
+
+
+
+.btn{
+	
+	
+	background-color:#E85D04;
+	border:none;
+	color:#ffff;
+}
+.team-btn:hover{
+	color:#fff;
+	background-color:#555;
+	
+}
